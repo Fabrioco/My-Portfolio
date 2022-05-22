@@ -4,27 +4,30 @@
     margin: 0;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    width: 100%;
+
+}
+
+body{
+    background-color: #252526;
 }
 
 header{
     background-color: #18181885;
-    box-shadow: 2px 3px 10px rgba(74, 2, 145, 0.41);
-    height: 210px;
-    display: grid;
+    box-shadow: 2px 3px 10px rgba(74, 2, 145, 0.185);
+    height: 300px;
 }
 
 h1 {
-    text-shadow: rgba(74, 2, 145, 0.41);
+    width: auto;
+    height: 120px;
     padding: 60px;
     color: rgb(123, 123, 123);
     font-size: 4em;
+    text-align: left;
 }
 
 nav{
-    margin-left: auto;
     text-align: right;
-    margin-top: -60px;
 }
 
 .link {
@@ -46,34 +49,31 @@ nav{
     padding: 15px;
 }
 
-body{
-    background-color: #252526;
-}
-
-.principal {
-    display: grid;
+.home {
+    margin: 25px;
+    display: flex;
     align-items: center;
     background-color: rgba(47, 47, 47, 0.754);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(74, 2, 145, 0.41);
+    box-shadow: 5px 5px 5px rgba(74, 2, 145, 0.185);
+    min-width: 200px;
 }
 
-.me {
-    width: 400px;
+.eu {
     height: 300px;
-    margin-left: 200px;
     margin-top: 100px;
     font-size: 2em;
     text-align: left;
     border-radius: 10px;
+    text-indent: 15px;
 }
 
 strong{
     text-decoration: underline;
 }
 
-.pic {
+.photo {
     width: 50%;
-    max-width: 300px;
+    margin: auto;
 }
