@@ -11,6 +11,7 @@ header{
     background-color: #18181885;
     box-shadow: 2px 3px 10px rgba(74, 2, 145, 0.41);
     height: 210px;
+    display: grid;
 }
 
 h1 {
@@ -18,15 +19,12 @@ h1 {
     padding: 60px;
     color: rgb(123, 123, 123);
     font-size: 4em;
-    width: 550px;
 }
 
 nav{
     margin-left: auto;
-    width: 530px;
     text-align: right;
     margin-top: -60px;
-   
 }
 
 .link {
@@ -50,15 +48,10 @@ nav{
 
 body{
     background-color: #252526;
-    max-width: 100%;
 }
 
 .principal {
-    margin-top: 20px;
-    display: flex;
-    width: 1100px;
-    height: 700px;
-    margin-left: 100px;
+    display: grid;
     align-items: center;
     background-color: rgba(47, 47, 47, 0.754);
     border-top-left-radius: 10px;
@@ -81,10 +74,6 @@ strong{
 }
 
 .pic {
-    margin-top: 40px;
-    margin-left: 100px;
-    width: 400px;
-    height: 400px;
-    padding-right: 20px;
-    border-top-left-radius: 10px;
+    width: 50%;
+    max-width: 300px;
 }
