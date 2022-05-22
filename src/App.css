@@ -4,7 +4,7 @@
     margin: 0;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-
+    color: rgba(0, 0, 0, 0.753);
 }
 
 body{
@@ -18,10 +18,10 @@ header{
 }
 
 h1 {
+    color: rgb(226, 108, 255);
     width: auto;
     height: 120px;
     padding: 60px;
-    color: rgb(123, 123, 123);
     font-size: 4em;
     text-align: left;
 }
@@ -61,8 +61,8 @@ nav{
 }
 
 .eu {
+    color: black;
     height: 300px;
-    margin-top: 100px;
     font-size: 2em;
     text-align: left;
     border-radius: 10px;
@@ -70,10 +70,100 @@ nav{
 }
 
 strong{
+    color: black;
     text-decoration: underline;
 }
 
 .photo {
     width: 50%;
     margin: auto;
+}
+
+.sobre {
+    color: black;
+    background-color: rgba(47, 47, 47, 0.754);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(74, 2, 145, 0.479);
+    margin: auto;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.pais {
+    color: black;
+    background-color: rgba(47, 47, 47, 0.754);
+    box-shadow: 5px 0px 5px rgba(74, 2, 145, 0.18);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.sobre2{
+    background-color: rgba(47, 47, 47, 0.754);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(74, 2, 145, 0.18);
+}
+
+.paragrafo {
+    width: 350px;
+    text-align: justify;
+    margin: auto;
+}
+
+.photo2 {
+    border-radius: 300px;
+    margin: 20px;
+    max-height: 150px;
+}
+
+.curriculo {
+    border: 1px solid rgb(74, 2, 145);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 36px;
+}
+
+.proj {
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.descrição {
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.android {
+    width: 295px;
+    box-shadow: -5px -0px 0 rgb(216, 57, 216);
+}
+.android:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    width: 350px;
+    box-shadow: -5px -0px 0 rgb(74, 2, 145);
+}
+
+.cordelphoto {
+    width: 295px;
+    height: 168px;
+    box-shadow: -5px -0px 0 rgb(216, 57, 216);
+}
+.cordelphoto:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    width: 350px;
+    height: 198px;
+    box-shadow: -5px -0px 0 rgb(74, 2, 145);
 }
