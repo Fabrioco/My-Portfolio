@@ -8,26 +8,28 @@
 }
 
 body{
-    background-color: #252526;
+    background-color: #262424;
 }
 
 header{
-    background-color: #18181885;
+    background-color: #171717;
     box-shadow: 2px 3px 10px rgba(74, 2, 145, 0.185);
-    height: 300px;
+    display: inline-flex;
+    width: 100%;
+    place-items: center;
 }
 
 h1 {
     color: rgb(226, 108, 255);
-    width: auto;
-    height: 120px;
-    padding: 60px;
-    font-size: 4em;
+    margin-bottom: 0;
+    padding: 0 60px;
+    font-size: 3.8em;
     text-align: left;
 }
 
 nav{
-    text-align: right;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .link {
@@ -41,19 +43,18 @@ nav{
     text-decoration: none;
 }
 .link:hover {
-    background-color: gray;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.261);
-    border: 1px solid white;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
     padding: 15px;
+    text-shadow:
+        0px 0px 10px rgb(226, 108, 255);
+    transition: 1s;
 }
 
 .home {
     margin: 25px;
     display: flex;
     align-items: center;
-    background-color: rgba(47, 47, 47, 0.754);
+    background-color: #3F3E3E;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 5px 5px 5px rgba(74, 2, 145, 0.185);
@@ -61,16 +62,19 @@ nav{
 }
 
 .eu {
-    color: black;
+    padding-left: 10px;
+    color: rgb(226, 108, 255);
     height: 300px;
     font-size: 2em;
     text-align: left;
     border-radius: 10px;
     text-indent: 15px;
+    text-shadow: 
+        0px 0px 10px rgb(0, 0, 0);
 }
 
 strong{
-    color: black;
+    color: rgb(226, 108, 255);
     text-decoration: underline;
 }
 

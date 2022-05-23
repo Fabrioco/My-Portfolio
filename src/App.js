@@ -9,16 +9,18 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Fabrício</h1>
-        <a className='link' href='#home'>Home</a>
-        <a className='link' href='#sobre'>Sobre</a>
-        <a className='link' href='#proj'>Projetos</a>
-        <a className='link' href='#cont'>Contato</a>
+        <h1>Fabricio</h1>
+        <nav>
+          <a className='link' href='#home'>Home</a>
+          <a className='link' href='#sobre'>Sobre</a>
+          <a className='link' href='#proj'>Projetos</a>
+          <a className='link' href='#cont'>Contato</a>
+        </nav>
       </header>
       <main>
         <section className='home' id='home'>
           <p className='eu'>
-            Olá, eu sou <strong>Fabrício Lopes</strong>, <br/> Desenvolvedor Front-End Junior!
+            Olá, eu sou <strong>Fabrício Lopes</strong>, <br/> Desenvolvedor Front-End!
           </p>
           <img src={logo} className="photo"></img>
         </section>
