@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './images/muie.png';
 import perfil from './images/perfil.jpg';
 import logoandroid from './images/android.png';
 import logocordel from './images/cordel.jpg'
@@ -9,30 +9,31 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Fabricio</h1>
+        <h1>Portfolio</h1>
         <nav>
-          <a className='link' href='#home'>Home</a>
-          <a className='link' href='#sobre'>Sobre</a>
-          <a className='link' href='#proj'>Projetos</a>
-          <a className='link' href='#cont'>Contato</a>
+          <a className='link' href='#home'> • Home</a>
+          <a className='link' href='#sobre'> • Sobre</a>
+          <a className='link' href='#proj'> • Projetos</a>
+          <a className='link' href='#cont'> • Contato</a>
         </nav>
       </header>
       <main>
-        <section className='home' id='home'>
-          <p className='eu'>
-            Olá, eu sou <strong>Fabrício Lopes</strong>, <br/> Desenvolvedor Front-End!
-          </p>
+        <div className='home' id='home'>
+          <p className='eu'>Olá, eu sou <strong>Fabrício Lopes</strong>, <br/> Desenvolvedor Front-End!</p>
           <img src={logo} className="photo"></img>
-        </section>
-          <h2 id='sobre' className='sobre'>Quem sou eu?</h2>
-            <h2 className='pais'>São Paulo, Brasil</h2>
+        </div>
 
-            <main className='sobre2'>
+          <div>
+            <h2 id='sobre' className='sobre'>Quem sou eu?</h2>
+              <h2 className='pais'>São Paulo, Brasil</h2>
+          </div>
+
+            <div className='sobre2'>
             <p className='paragrafo'>
               Olá, tenho 19 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
               Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
             <img src={perfil} className="photo2" />
-            </main>
+            </div>
 
             <main>
               <a href={curriculo} download="Curriculo Fabrício Lopes" className='curriculo' ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
