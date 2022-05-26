@@ -137,41 +137,49 @@ div a{
 }
 
 .sobreconfig {
-    margin: 40px 200px;
+    margin-bottom: 50px;
+    margin-left: 20vw;
+    width: 270px;
+    border-bottom: 1px solid white;
 }
 
 .linha {
-    margin: 10px 600px 0px 200px;
+    margin: 0 15vw;
     border-bottom: 1px solid white;
-    box-shadow: 1px 2px 5px #01A7C2;
 }
 
 .linha2 {
-    margin: 0px 200px 10px 709px;
+    margin: 0 15vw;
     border-bottom: 1px solid white;
-    box-shadow: 1px 2px 5px #01A7C2;
 }
 
 .sobre {
-
+    
 }
 
 .sobre2 {
     display: flex;
-    margin: 0px 600px 0px 200px;
-    border-right: 1px solid white;
+    margin: 0 5vw;
 }
 
 .paragrafo {
     background-color: #00000000;
-    width: 400px;
+    width:250px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0 0 0 17%;
+}
+
+.pic {
+    width: 190px;
 }
 
 .perfil {
     border-radius: 100px;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+    min-width: 90px;
+    min-height: 87px;
+    max-width: 150px;
+    max-height: 130px;
+    margin: auto ;
+    margin-right: 10vw;
 }

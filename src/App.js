@@ -1,5 +1,6 @@
 import logo from './images/muie.svg';
 import perfil from './images/perfil.jpg';
+import perfilpq from './images/perfilpq.jpg'
 import logoandroid from './images/android.png';
 import logocordel from './images/cordel.jpg'
 import './App.css'
@@ -48,9 +49,11 @@ function App() {
               <p className='paragrafo'>
                 Olá, tenho 19 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
                 Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
-                <img src={perfil} className='perfil'/>
+                    <img src={perfil} className='perfil'/>
             </div>     
+
               <div className='linha2'></div>
+
                 <div>
                   <h2  id        = 'proj' className        = 'proj'>Projetos</h2>
                   <img src       = {logoandroid} className = "android"></img>
