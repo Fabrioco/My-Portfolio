@@ -219,6 +219,12 @@ div a{
     border-radius: 15px;
 }
 
+@media only screen and (max-width:680px) {
+    .configsite {
+        margin-bottom: 0px;
+    }
+}
+
 .configsite:hover {
     height: 320px;
     transition:cubic-bezier(0.075, 0.82, 0.165, 1)2s;
@@ -259,7 +265,7 @@ div a{
 
 .contato {
     display: flex;
-    margin: 0 10vw 0 10vw;
+    margin: 200px 10vw 0 10vw;
     flex-wrap: wrap;
 }
 
