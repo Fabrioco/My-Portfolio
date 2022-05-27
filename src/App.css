@@ -151,6 +151,7 @@ div a{
 .linha2 {
     margin: 0 15vw;
     border-bottom: 1px solid white;
+
 }
 
 .sobre {
@@ -182,4 +183,110 @@ div a{
     max-height: 130px;
     margin: auto ;
     margin-right: 10vw;
+}
+
+.proj {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #01A7C2;
+    border-bottom: 3px solid #01A7C2;
+    background-color: white;
+    color: black;
+    width: 300px;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.projetos {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.configsite {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #01A7C2;
+    border-left: 5px solid #01A7C2;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 320px;
+    height: 260px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.configsite:hover {
+    height: 320px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)2s;
+    border-left: 10px solid #01A7C2;
+}
+
+.site {
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.descrição {
+    max-height: 150px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.botao {
+    margin: 15px 0;
+    color: white;
+    background-color: #110F0F;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #01A7C2;
+}
+
+.botao:hover {
+    background-color: #01A7C2;
+}
+
+.svg {
+    color: white;
+    width: 30px;
+}
+
+.contato {
+    display: flex;
+    margin: 0 10vw 0 10vw;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    margin: 0 0 80px 0;
+    text-align: left;
+}
+
+.cont {
+    margin: auto;
+    vertical-align: top;
+    width: 315px;
+    margin-bottom: 60px;
+}
+
+.linha3 {
+    border-right: 1px solid white;
+}
+
+.contatinho {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
