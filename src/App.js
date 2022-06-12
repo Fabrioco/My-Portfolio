@@ -3,9 +3,11 @@ import perfil from './images/perfil.jpg';
 import logoandroid from './images/android.png';
 import logocordel from './images/cordel.jpg';
 import breve from './images/embreve.jpg';
-import './App.css';
 import curriculo from './links/curriculo.pdf';
 import card from './links/Fabriciolopes.png';
+
+import './App.css';
+
 
 function App() {
   return (
@@ -32,13 +34,11 @@ function App() {
                     <div>
                     <img src={logo} className="photo"></img>
               </div>
-              
           </div>
           <div className='scroll'>
               <p><a href='#sobre' className=''>Role para baixo</a></p>
           </div>
           </main>
-
         <section>
             <div className='sobreconfig'>
               <h2 id='sobre' className='sobre'>Saiba mais sobre mim</h2>
@@ -87,7 +87,7 @@ function App() {
                         <p   className = 'descrição'>Este site ainda está em andamento, vamos com calma, estará saindo o mais rapido possível</p>
                       </div>
                 </div>    
-            <div className='contato'>
+            <div className='contato' id='cont'>
               <div className='cont'>
                 <h2 className='titulo'>Contact</h2>
                 <p className='contatinho'>Email: fabriciooliveiralopes50@gmail.com</p>

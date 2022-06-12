@@ -154,10 +154,6 @@ div a{
 
 }
 
-.sobre {
-    
-}
-
 .sobre2 {
     display: flex;
     margin: 0 5vw;
@@ -169,6 +165,7 @@ div a{
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 0 0 17%;
+    text-align: justify;
 }
 
 .pic {
@@ -211,10 +208,10 @@ div a{
     border-left: 5px solid #01A7C2;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
     width: 320px;
     height: 260px;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     text-align: justify;
     border-radius: 15px;
 }
@@ -228,7 +225,6 @@ div a{
 .configsite:hover {
     height: 320px;
     transition:cubic-bezier(0.075, 0.82, 0.165, 1)2s;
-    border-left: 10px solid #01A7C2;
 }
 
 .site {
@@ -289,6 +285,11 @@ div a{
     margin: 10px 0;
     font-size: 16px;
     text-align: left;
+}
+
+.contatinho:hover{
+    text-decoration: underline;
+    
 }
 
 footer {
