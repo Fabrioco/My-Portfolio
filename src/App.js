@@ -79,7 +79,7 @@ function App() {
                     </div >
                     <div className='projects'>
                       <div  className = "contents-project">
-                      <img src       = {breve}  className = "project"></img>
+                      <img src= {breve}  className = "project"></img>
                         <p   className = 'project-description'>Este site ainda está em andamento, vamos com calma, estará saindo o mais rapido possível</p>
                       </div>
                       <div className = "contents-project">
