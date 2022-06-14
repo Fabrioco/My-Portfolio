@@ -44,7 +44,7 @@ function App() {
               <h2 id='sobre' className='about'>Saiba mais sobre mim</h2>
             </div>
               <div className='linha'></div>
-            <div className='big-descriction'>
+            <div className='big-description'>
               <p className='main-description'>
                 Olá, tenho 19 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
                 Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
