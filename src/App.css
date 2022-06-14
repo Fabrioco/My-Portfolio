@@ -35,7 +35,7 @@ nav {
     color: #01A7C2;
 }
 
-.primeira {
+.main {
     padding-bottom: 100px;
 }
 
@@ -44,11 +44,11 @@ nav {
 
 }
 
-.mim{
+.contents-main{
     margin: auto;
 }
 
-.eu {
+.contents-me {
     text-align: left;
     margin: auto;
     margin-left: 20px;
@@ -61,7 +61,7 @@ strong {
         0px 0px 5px white;
 }
 
-.prof {
+.profissao {
     margin-top: 5px;
     margin-left: 10px;
     border-top: 1px solid white;
@@ -82,7 +82,7 @@ div a{
     margin: 0 10px;
 }
 
-.botoes {
+.btns {
     width: 100px;
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ div a{
     background-color: #01A7C2;
 }
 
-.card {
+.visitcard {
     width: 100px;
     margin: 30px 20px;
     padding-top: 2px;
@@ -118,11 +118,11 @@ div a{
     font-weight: 700;
 }
 
-.card:active {
+.visitcard:active {
     background-color: #01A7C2;
 }
 
-.scroll {
+.nextpage {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 100px;
@@ -131,12 +131,12 @@ div a{
     color: rgb(255, 255, 255);
 }
 
-.scroll:hover {
+.nextpage:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.sobreconfig {
+.contents-about {
     margin-bottom: 50px;
     margin-left: 20vw;
     width: 270px;
@@ -154,12 +154,12 @@ div a{
 
 }
 
-.sobre2 {
+.big-description {
     display: flex;
     margin: 0 5vw;
 }
 
-.paragrafo {
+.main-description {
     background-color: #00000000;
     width:250px;
     padding-top: 40px;
@@ -172,7 +172,7 @@ div a{
     width: 190px;
 }
 
-.perfil {
+.photo-me {
     border-radius: 100px;
     min-width: 90px;
     min-height: 87px;
@@ -182,7 +182,7 @@ div a{
     margin-right: 10vw;
 }
 
-.proj {
+.project-title {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -196,13 +196,13 @@ div a{
     padding: 3px;
 }
 
-.projetos {
+.projects {
     display: flex;
     position: relative;
     flex-wrap: wrap;
 }
 
-.configsite {
+.contents-project {
     background-color: rgb(255, 255, 255);
     border: 1px solid #01A7C2;
     border-left: 5px solid #01A7C2;
@@ -217,31 +217,31 @@ div a{
 }
 
 @media only screen and (max-width:680px) {
-    .configsite {
+    .contents-project {
         margin-bottom: 0px;
     }
 }
 
-.configsite:hover {
+.contents-project:hover {
     height: 320px;
     transition:cubic-bezier(0.075, 0.82, 0.165, 1)2s;
 }
 
-.site {
+.project {
     width: 100%;
     height: 150px;
     border: 1px solid black;
     border-radius: 15px;
 }
 
-.descrição {
+.project-description {
     max-height: 150px;
     color: black;
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.botao {
+.btn {
     margin: 15px 0;
     color: white;
     background-color: #110F0F;
@@ -250,7 +250,7 @@ div a{
     border: 1px solid #01A7C2;
 }
 
-.botao:hover {
+.btn:hover {
     background-color: #01A7C2;
 }
 
@@ -259,18 +259,18 @@ div a{
     width: 30px;
 }
 
-.contato {
+.contact {
     display: flex;
     margin: 200px 10vw 0 10vw;
     flex-wrap: wrap;
 }
 
-.titulo {
+.contact-title {
     margin: 0 0 80px 0;
     text-align: left;
 }
 
-.cont {
+.contents-contact {
     margin: auto;
     vertical-align: top;
     width: 315px;
@@ -281,13 +281,13 @@ div a{
     border-right: 1px solid white;
 }
 
-.contatinho {
+.my-contact {
     margin: 10px 0;
     font-size: 16px;
     text-align: left;
 }
 
-.contatinho:hover{
+.my-contact:hover{
     text-decoration: underline;
     
 }
