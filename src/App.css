@@ -68,11 +68,14 @@ strong {
     letter-spacing: 2px;
 }
 
-.photo {
+.contents-photo{
     margin: auto;
-    margin-top: 70px;
-    margin-left: 50px;
-    width: 60%;
+    margin-top: 50px;
+}
+
+.photo {
+    width: 100%;
+    margin: auto;
 }
 
 div a{
@@ -83,9 +86,15 @@ div a{
 }
 
 .btns {
-    width: 100px;
+    width: 190px;
     display: flex;
-    align-items: center;
+    place-items: center;
+}
+
+@media only screen and (max-width:680px) {
+    .btns {
+        flex-wrap: wrap;
+    }
 }
 
 .curriculo {
@@ -101,6 +110,11 @@ div a{
     font-weight: 700;
 }
 
+@media only screen and (max-width:680px) {
+    .curriculo {
+        margin-bottom: 0px;
+    }
+}
 .curriculo:active {
     background-color: #01A7C2;
 }
