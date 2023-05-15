@@ -4,7 +4,7 @@ import logoandroid from './images/android.png';
 import logocordel from './images/cordel.jpg';
 import breve from './images/embreve.jpg';
 
-import curriculo from './links/curriculo.pdf';
+import curriculo from '../src/links/currículoFabrício2023.pdf';
 import card from './links/Fabriciolopes.png';
 
 import './App.css';
@@ -48,7 +48,7 @@ function App() {
                 <div className='linha'></div>
               <div className='big-description'>
                 <p className='main-description'>
-                  Olá, tenho 19 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
+                  Olá, tenho 20 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
                   Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
                       <img src={perfil} className='photo-me' alt='img.jpg'/>
               </div>
@@ -79,7 +79,7 @@ function App() {
               <div className='contact' id='cont'>
                 <div className='contents-contact'>
                   <h2 className='contact-title'>Contact</h2>
-                  <p className='my-contact'>Email: fabriciooliveiralopes50@gmail.com</p>
+                  <p className='my-contact'>Email: fl5513108@gmail.com</p>
                   <p className='my-contact'>Telefone: (11) 96016-8159</p>
                 </div>
                 <div className='linha3'></div>
