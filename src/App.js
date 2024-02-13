@@ -1,105 +1,127 @@
-import logo from './images/photo.svg';
-import perfil from './images/perfil.jpg';
-import logoandroid from './images/android.png';
-import logocordel from './images/cordel.jpg';
-import breve from './images/embreve.jpg';
+import Network from "./components/Resources/Objective/Network.svg"
+import CurriculoFabrício from './components/Resources/Objective/curricoFabricio.pdf';
 
-import curriculo from '../src/links/currículoFabrício2023.pdf';
-import card from './links/Fabriciolopes.png';
+import { FaFacebook, FaLinkedin, FaHtml5, FaCss3Alt, FaReact, FaLock, FaGithub, FaInstagram } from "react-icons/fa"
+import { IoLogoJavascript } from 'react-icons/io5'
 
-import './App.css';
+import picture from "./components/Resources/About/picture-me.jpeg"
 
+import android from './components/Resources/Projects/android.svg';
+import cordel from './components/Resources/Projects/cordel.svg';
+import primeflix from './components/Resources/Projects/primeflix.svg';
+
+import './index.css';
 
 function App() {
-  return (
-    <div>
-      <header>
-        <h1>Portfolio</h1>
-        <nav>
-          <a className='link' href='#home'> • Home</a>
-          <a className='link' href='#sobre'> • Sobre</a>
-          <a className='link' href='#proj'> • Projetos</a>
-          <a className='link' href='#cont'> • Contato</a>
-        </nav>
-      </header>
-      <div className='project-all'>
-        <main className='main'>
-          <div className='home' id='home'>
-            <div className='contents-main'>
-              <p className='contents-me'>My name is  <br/><strong>Fabrício</strong></p>
-              <p className='profissao'>Sou Desenvolvedor Front-End</p>
-              <div className='btns'>
-                <a href={curriculo} download="Curriculo Fabrício Lopes" ><p className='curriculo'>Curriculun</p></a>
-                <a href={card} download="CardVisit FabrícioLopes"><p className='visitcard'>Card Visit</p></a>
-              </div>
-                </div>
-                <div className='contents-photo'>
-                      <img src={logo} className="photo" alt='img.jpg'></img>
+
+    document.title = 'Portfolio'
+
+    return (
+        <div id='Principal'>
+            <div id="AllProject">
+                <div id="header">
+                    <h1 id="title">Portfolio</h1>
+                    <nav id="navegation">
+                        <ol>
+                            <li id='home'><a href="#AllObjective">Ínicio</a></li>
+                            <li id='about'><a href="#AllAbout">Sobre</a></li>
+                            <li id='project'><a href="#AllProjects">Projetos</a></li>
+                            <li id='contact'><a href="#AllContact">Contato</a></li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
-            <div className='nextpage'>
-                <p><a href='#sobre' className=''>Role para baixo</a></p>
+            <div id="AllObjective">
+                <div id="panel">
+                    <div id="my-person">
+                        <p>Meu nome é <h2 id="my-name">Fabrício</h2></p>
+                        <p>Sou desenvolvedor front end</p>
+                        <a id="link" href={CurriculoFabrício} download="Curriculo Fabricio Lopes">Currículo</a>
+                        <FaInstagram className="github" size={50}/>
+                    </div>
+                    <div>
+                        <img id="svg" src={Network} alt="svg.png" />
+                    </div>
+                </div>
+                <a id="down" href="#AllAbout">Role para baixo</a>
             </div>
-            </main>
-          <section>
-              <div className='contents-about'>
-                <h2 id='sobre' className='about'>Saiba mais sobre mim</h2>
-              </div>
-                <div className='linha'></div>
-              <div className='big-description'>
-                <p className='main-description'>
-                  Olá, tenho 20 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
-                  Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
-                      <img src={perfil} className='photo-me' alt='img.jpg'/>
-              </div>
-                <div className='linha2'></div>
-                    <h2  id        = 'proj' className        = 'project-title'>MY PROJECTS</h2>
-                    <div className='projects'>
-                      <div className = "contents-project">
-                        <img src       = {logoandroid} className = "project" alt='img.jpg' />
-                        <p   className = 'project-description'>Projeto Android feito para testar minhas habilidades com o HTML e CSS com poucos meses de treinamento</p>
-                          <a className="btn" href='https://fabrioco.github.io/HTML-CSS/Desafios/Desafio%205/index.html' target="_blank" rel="noreferrer">Acessar link </a>
-                      </div>
-                      <div className = "contents-project">
-                        <img src       = {logocordel} className  = "project" alt='img.jpg' ></img>
-                        <p   className = 'project-description'>Projeto Cordel feito para testar minhas habilidades com o HTML e CSS com poucos meses de treinamento</p>
-                          <a className='btn' href='https://fabrioco.github.io/Projeto-Cordel/' target="_blank" rel="noreferrer">Acessar link</a>
-                      </div>
-                      </div >
-                      <div className='projects'>
-                        <div  className = "contents-project">
-                        <img src= {breve}  className = "project" alt='img.jpg' ></img>
-                          <p   className = 'project-description'>Este site ainda está em andamento, vamos com calma, estará saindo o mais rapido possível</p>
-                        </div>
-                        <div className = "contents-project">
-                          <img src       = {breve} className  = "project" alt='img.jpg' ></img>
-                          <p   className = 'project-description'>Este site ainda está em andamento, vamos com calma, estará saindo o mais rapido possível</p>
-                        </div>
-                  </div>
-              <div className='contact' id='cont'>
-                <div className='contents-contact'>
-                  <h2 className='contact-title'>Contact</h2>
-                  <p className='my-contact'>Email: fl5513108@gmail.com</p>
-                  <p className='my-contact'>Telefone: (11) 96016-8159</p>
+            <div id="content-about">
+                <div id="AllAbout">
+                    <h2 id="TitleAbout">Saiba mais sobre mim</h2>
+                    <p id="TextMe">
+                        Olá, tenho 20 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
+                        Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
                 </div>
-                <div className='linha3'></div>
-                <div className='contents-contact'>
-                  <h2 className='contact-title'>Social Media</h2>
-                <p className='my-contact'><a href='https://www.linkedin.com/in/fabricio-lopes1325' target="_blank" rel="noreferrer"  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-              </svg> LinkedIn</a></p>
-                <p className='my-contact'><a href='https://www.facebook.com/bibicio.oliveiralopes' target="_blank" rel="noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-              </svg> Facebook</a></p>
+                <div id="divPic">
+                    <img id='PicMe' src={picture} alt="me.png" />
                 </div>
-              </div>
-            </section>
-      </div>
-      <footer>
-        <p>Copyright &copy; Fabrício Lopes</p>
-      </footer>
-    </div>
-  );
+                <div id="disciplines">
+                    <FaHtml5 className="courses" size={50} color="orange" />
+                    <FaCss3Alt className="courses" size={50} color="blue" />
+                    <IoLogoJavascript className="courses" size={50} color="yellow" />
+                    <FaReact className="courses" size={50} color="rgba(59,130,246,.5)" />
+                    <FaLock className="courses" size={50} />
+                    <FaLock className="courses" size={50} />
+                    <FaLock className="courses" size={50} />
+                    <FaLock className="courses" size={50} />
+                    <FaLock className="courses" size={50} />
+                </div>
+            </div>
+            <div>
+                <div id="AllProjects">
+                    <div>
+                        <h2 id="TitleProjects">Meus Projetos</h2>
+                    </div>
+                    <div id="projects">
+                        <div id="whatever"  >
+                            <img className="PicWhatever" src={android} alt="android.png" />
+                            <p id="TextProjects">Projeto Android</p>
+                            <a id="btns" href="https://fabrioco.github.io/Projeto-Android/">Acessar</a>
+                        </div>
+                        <div id='seconds'>
+                            <img className="PicProjects" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRqUXfPI4sWuCm6NhX7G2rpIoG1cIYxpuNiI2sHNZOn2Iqka_7Dv9YQwh7WwUwoaES-w&usqp=CAU'} alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRqUXfPI4sWuCm6NhX7G2rpIoG1cIYxpuNiI2sHNZOn2Iqka_7Dv9YQwh7WwUwoaES-w&usqp=CAU.png" />
+                            <p id="TextProjects">Projeto chamados</p>
+                            <a id="btns" href="https://callproject.netlify.app">Acessar</a>
+                        </div>
+                        <div id="first">
+                            <img id="PicPrime" src={primeflix} alt="primeflix.png" />
+                            <p id="TextProjects" >Prime Flix</p>
+                            <a id="btns" href="https://primeflix-fabricio.netlify.app/">Acessar</a>
+                        </div>
+                        <div id='seconds'>
+                        <img className="PicProjects" src={'https://newtransporterlopes.netlify.app/static/media/logo.c0a87afe020dc26757c6601f42a8c824.svg'} alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRqUXfPI4sWuCm6NhX7G2rpIoG1cIYxpuNiI2sHNZOn2Iqka_7Dv9YQwh7WwUwoaES-w&usqp=CAU.png" />
+                            <p id="TextProjects">Transportadora Lopes</p>
+                            <a id="btns" href="https://newtransporterlopes.netlify.app">Acessar</a>
+                        </div>
+
+                        <div id="whatever">
+                            <img className="PicWhatever" src={cordel} alt="cordel.png" />
+                            <p id="TextProjects" >Projeto Cordel</p>
+                            <a id="btns" href="https://fabrioco.github.io/Projeto-Cordel/">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="AllContact">
+                <div id="Contact">
+                    <h3 id="TitleContact" >Contatos</h3>
+                    <p className="TextContact">Email: fabriciooliveiralopes50@gmail.com</p>
+                    <p className="TextContact">Celular: (11) 96016-8159</p>
+                </div>
+                <div id="SocialMedia">
+                    <h3 id="TitleContact" >Redes Sociais</h3>
+                    <a className="TextContact" href="https://www.linkedin.com/in/fabricio-lopes1325">
+                        <FaLinkedin size={25} id="svglinkedin" />LinkedIn</a>
+                    <a href="https://github.com/Fabrioco?tab=repositories"  className="TextContact" id='svggithub'><FaGithub size={25}/>Github</a>
+                    <a href="https://www.facebook.com/bibicio.oliveiralopes" className="TextContact">
+                        <FaFacebook size={25} id="svgfacebook" />Facebook</a>
+                </div>
+            </div>
+            <div id="btnBackTop">
+                <a id="BackToTop" href="#header">&uarr;</a>
+            </div>
+        </div>
+    )
 }
 
 export default App;
